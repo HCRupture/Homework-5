@@ -103,5 +103,12 @@ namespace RogersLab2
         {
 
         }
+
+        private void btnMystery_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This Button does nothing useful");
+            this.Close();
+
+        }
     }
 }
